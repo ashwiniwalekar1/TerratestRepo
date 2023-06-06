@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "app": "nodemon app" 
+  },
+  "author": "parames",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
